@@ -1,0 +1,21 @@
+.case-study-menu {
+    background: #0B0840;
+    color: #FFFFFF;
+  }
+
+[data-filter] {
+    display: inline-block;
+    cursor: pointer;
+}
+
+[data-filter]+[data-filter] {
+    margin-left: 5px;
+}
+
+[data-tags]:not(.show) {
+    display: none !important;
+}
+
+[data-tags] {
+    display: inline-block !important;
+}
